@@ -8,7 +8,23 @@ studyapp_backend/package-lock.json
 studyapp_backend/db.sqlite*
 studyapp_backend/prisma/migrations/
 studyapp_backend/prisma/dev.db* # if using a different name for dev db
+studyapp_backend/uploads/ # Ignore uploaded files directory for backend
 
-# Frontend specific (if any, e.g., build outputs)
-# studyapp_frontend/dist/
-# studyapp_frontend/.parcel-cache/
+# Frontend specific (Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+frontend/.env
+frontend/.env.*
+frontend/coverage/
+frontend/dist-ssr/
+frontend/stats.html
+
+# IDE / Editor specific (general)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
