@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+*.log
+
+# Backend specific
+studyapp_backend/node_modules/
+studyapp_backend/package-lock.json
+studyapp_backend/db.sqlite*
+studyapp_backend/prisma/migrations/
+studyapp_backend/prisma/dev.db* # if using a different name for dev db
+
+# Frontend specific (if any, e.g., build outputs)
+# studyapp_frontend/dist/
+# studyapp_frontend/.parcel-cache/
