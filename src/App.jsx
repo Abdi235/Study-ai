@@ -42,13 +42,13 @@ function App() {
 
   return (
     <>
-      <h1>Fitness AI</h1>
+      <h1>Study AI</h1>
       <div className="ollama-interaction">
         <h2>Ask Ollama</h2>
         <textarea
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
-          placeholder="Enter your prompt here (e.g., Suggest a 30-minute chest and triceps workout.)"
+          placeholder="Enter your study-related prompt here (e.g., Explain the concept of photosynthesis.)"
           rows="4"
         />
         <button onClick={handleSubmit} disabled={loading}>
